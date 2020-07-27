@@ -33,30 +33,3 @@ $(document).ready(function () {
 
 })
 
-//Carregar Mais POstagens
-
-$(function () {
-  num_posts_show = 20;
-  speed_to_top = 1000; // in ms
-  
-    $(".style1, .style2, .style3, .style4, .style5, .style6").slice(0, num_posts_show).show();
-   
-    $("#loadmore").on('click', function (e) {
-        e.preventDefault();
-        $("article:hidden").slice(0, num_posts_show).slideDown();
-        if ($("article").length == 0) {
-            $("#load").fadeOut('slow');
-        }
-        $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 1500);
-    });
-});
-
-$('#totop').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, speed_to_top);
-    return false;
-});
-
