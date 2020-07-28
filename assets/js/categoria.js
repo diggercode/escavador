@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 	$("[b2020]").click(function () {
 		$("article").hide();
-		$("[2020]").slideDown(1000);
+		//$("[2020]").slideDown(1000);
 
 	});
 
