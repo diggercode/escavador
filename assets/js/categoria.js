@@ -101,14 +101,14 @@ $(document).ready(function () {
 
 	$("[bmais]").click(function () {
 		$("[b2017], [b2018], [b2016]").slideDown(1000);
-		$(this).slideUp(1000)
+		$("[bmais]").slideUp(1000)
 		$("[bmais1]").slideDown(1000)
 	})
 
 
 	$("[bmais1]").click(function () {
 		$("[b2015], [b2014], [b2013], [b2012], [b2011], [b2010], [b2009], [b2008], [b2007], [b2006],[b2005], [b2004], [b2003], [b2002], [b2001], [b2000]").slideDown(1000);
-		$(this).slideUp(1000)
+		$("[bmais1]").slideUp(1000)
 		
 	})
 	
