@@ -250,6 +250,9 @@ input, select, textarea {
 		h3 {
 			font-size: 0.8em;
 		}
+		.content h3 {
+			margin: 0;
+		}
 
 	}
 
