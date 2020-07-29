@@ -206,7 +206,6 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 	}
-	
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -222,7 +221,6 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8em;
-		margin: 1px;
 	}
 
 	h5 {
@@ -2459,9 +2457,8 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 2px;
+		border-radius: 4px;
 		border: 0;
-		margin: 4px;
 		box-shadow: inset 0 0 0 2px #585858;
 		color: #585858 !important;
 		cursor: pointer;
@@ -2530,7 +2527,7 @@ input, select, textarea {
 		.button.large {
 			font-size: 1em;
 		}
-		
+
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
@@ -2546,7 +2543,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: red;
+				background-color: #f2849e;
 			}
 
 			input[type="submit"].primary:active,
@@ -2554,7 +2551,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: red;
+				background-color: #ee5f81;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
