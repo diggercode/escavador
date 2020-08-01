@@ -89,10 +89,19 @@ $(document).ready(function () {
 		$("section").children().slideUp(1000);
 		$("[2003]").slideDown(1000);
 	});
-	$("[b2002]").click(function () {
+	
+	
+		$("[b2002]").click(function () {
+		$("section").children().slideUp(1000);
+		$("[2002]").slideDown(1000);
+	});
+
+	$("[b2001]").click(function () {
 		$("section").children().slideUp(1000);
 		$("[2001]").slideDown(1000);
 	});
+	
+	
 	$("[b2000]").click(function () {
 		$("section").children().slideUp(1000);
 		$("[2000]").slideDown(1000);
