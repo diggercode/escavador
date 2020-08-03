@@ -222,8 +222,8 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8em;
-		margin: 0 0 0 0;
-		}
+		margin: 1px;
+	}
 
 	h5 {
 		font-size: 0.8em;
@@ -250,9 +250,11 @@ input, select, textarea {
 		h3 {
 			font-size: 0.8em;
 		}
+		
 		.content h3 {
 			margin: 0;
 		}
+
 
 	}
 
@@ -1988,7 +1990,10 @@ input, select, textarea {
 			}
 
 				ul.actions.fit li > * {
+					margin-top:8%;
 					width: 100%;
+					align-items: center;
+					
 				}
 
 			ul.actions.fit.stacked {
@@ -2719,32 +2724,32 @@ input, select, textarea {
 					/* Cards Colors */
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			.tiles article.style2 > .image:before {
 				background-color: #7ecaf6;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			.tiles article.style3 > .image:before {
 				background-color: #7bd0c1;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			.tiles article.style4 > .image:before {
 				background-color: #c75b9b;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			.tiles article.style5 > .image:before {
 				background-color: #ae85ca;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
-				opacity: .2;
+				opacity: .1;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
