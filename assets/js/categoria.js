@@ -125,5 +125,26 @@ $(document).ready(function () {
 		
 		
 	})
+
+	
 	
 })
+
+/*
+	Load more content with jQuery - May 21, 2013
+	(c) 2013 @ElmahdiMahmoud
+*/   
+
+$(function () {
+    $("article").slice(0, 12).show();
+    $("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $("article:hidden").slice(0, 12).slideDown();
+        if ($("article:hidden").length == 0) {
+            $("#load").fadeOut('slow');
+        }
+        $('html,body').animate({
+            scrollTop: $(scrollTop).offset().top
+        }, 1500);
+    });
+});
